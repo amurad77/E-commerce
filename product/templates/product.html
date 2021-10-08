@@ -1,0 +1,46 @@
+
+        {% for product in data %}
+        <div class="col-xl-3 col-6 col-grid-box">
+            <div class="product-box">
+                <div class="img-wrapper">
+                    <div class="front">
+                        <a href="/product/{{product.id}}"><img src="{{ product.image.url }}" class="img-fluid blur-up lazyload bg-img" alt=""></a>
+                    </div>
+                    <div class="back">
+                        <a href="/product/{{product.id}}"><img src="{{ product.image.url }}" class="img-fluid blur-up lazyload bg-img" alt=""></a>
+                    </div>
+                    <div class="cart-info cart-wrap">
+                        <button data-toggle="modal" data-target="#addtocart" title="Add to cart"><i
+                                class="ti-shopping-cart"></i></button> <a href="javascript:void(0)" title="Add to Wishlist"><i
+                                class="ti-heart" aria-hidden="true"></i></a> <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View"><i
+                                class="ti-search" aria-hidden="true"></i></a> <a href="compare.html" title="Compare"><i
+                                class="ti-reload" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="product-detail product-right">
+                    <div class="rating">
+                        <i class=" fa fa-star{% if product.avarage_rating < 1 %}-outline {% endif %}"></i>
+                        <i class=" fa fa-star{% if product.avarage_rating < 2 %}-outline {% endif %}"></i>
+                        <i class=" fa fa-star{% if product.avarage_rating < 3 %}-outline {% endif %}"></i>
+                        <i class=" fa fa-star{% if product.avarage_rating < 4 %}-outline {% endif %}"></i>
+                        <i class=" fa fa-star{% if product.avarage_rating < 5 %}-outline {% endif %}"></i>
+                    </div>
+                    <a href="/product/{{product.id}}">
+                        <h6>{{product.title}}</h6>
+                        {% if product.get_discount %}
+                        <h4><del>${{product.price}}</del> 
+                            
+                        <span>{{product.get_sale_percent}}% off</span> </h4>
+                        <h3>${{product.get_sale_price}}</h3>
+                        {% else %}
+                        <h4>${{product.price}}</h4>
+                        {% endif %} 
+                    </a>
+                    <p>{{product.description}}
+                    </p>
+                  
+                  
+                </div>
+            </div>
+        </div>
+        {% endfor %}

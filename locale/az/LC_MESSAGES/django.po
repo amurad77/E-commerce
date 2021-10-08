@@ -1,0 +1,374 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-09 17:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: account/admin.py:13
+msgid "Personal info"
+msgstr "Şəxsi məlumat"
+
+#: account/admin.py:14
+msgid "Permissions"
+msgstr "İcazələr"
+
+#: account/admin.py:17
+msgid "Important dates"
+msgstr "Vacib tarixlər"
+
+#: account/forms.py:22 account/forms.py:89 account/forms.py:106
+msgid "Password"
+msgstr "Şifrə"
+
+#: account/forms.py:31 account/forms.py:115
+msgid "Password confirmation"
+msgstr "Şifrə təsdiqlənməsi"
+
+#: account/forms.py:37 account/forms.py:121 account/forms.py:151
+msgid "Enter the same password as before, for verification."
+msgstr "Doğrulama üçün əvvəlki parolu daxil edin."
+
+#: account/forms.py:98
+msgid "Email"
+msgstr "Elektron poçt"
+
+#: account/forms.py:129
+#, fuzzy
+#| msgid "Old Password"
+msgid " Old Password"
+msgstr "köhnə Şifrə"
+
+#: account/forms.py:137
+msgid " New Password"
+msgstr "yeni şifrə"
+
+#: account/forms.py:145
+msgid " New Password confirmation"
+msgstr "Yeni parol təsdiqlənməsi"
+
+#: account/models.py:8
+msgid "email address"
+msgstr "e-poçt ünvanı"
+
+#: account/templates/email/password_reset_email.html:2
+#, fuzzy, python-format
+#| msgid ""
+#| "seen mailYou're receiving this email because you requested a password "
+#| "reset for your user account at %(site_name)s."
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr "Maile baxin"
+
+#: account/templates/email/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr "Xahiş edirəm aşağıdakı səhifəyə keçin və yeni bir parol seçin:"
+
+#: account/templates/email/password_reset_email.html:8
+msgid "Your username, in case you’ve forgotten:"
+msgstr "İstifadəçi adınız, unutmusunuzsa:"
+
+#: account/templates/email/password_reset_email.html:10
+msgid "Thanks for using our site!"
+msgstr "Saytımızı istifadə etdiyiniz üçün təşəkkür edirik!"
+
+#: account/templates/email/password_reset_email.html:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "The %(site_name)s team"
+
+#: account/templates/reset_password.html:36
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+"Şifrə sıfırlama bağlantısı, ehtimal ki, artıq olduğu üçün etibarsız oldu, "
+
+#: core/templates/includes/footer.html:11
+msgid "KNOW IT ALL FIRST!"
+msgstr "HAMISINI İLK SIZ BİLİN!"
+
+#: core/templates/includes/footer.html:12
+msgid "Never Miss Anything From Multikart By Signing Up To Our Newsletter."
+msgstr "Bülletenimizə yazılmaqla heç vaxt Multikartdan heç nə qaçırmayın."
+
+#: core/templates/includes/footer.html:78
+#, fuzzy
+#| msgid "My Account"
+msgid "my account"
+msgstr "Mənim Hesabım"
+
+#: core/templates/includes/footer.html:82
+msgid "mens"
+msgstr "kişi"
+
+#: core/templates/includes/footer.html:83
+#, fuzzy
+#| msgid "women"
+msgid "womens"
+msgstr "qadın"
+
+#: core/templates/includes/footer.html:84
+msgid "clothing"
+msgstr "geyim"
+
+#: core/templates/includes/footer.html:85
+#, fuzzy
+#| msgid "Accessories"
+msgid "accessories"
+msgstr "Aksesuarlar"
+
+#: core/templates/includes/footer.html:86
+#, fuzzy
+#| msgid "features"
+msgid "featured"
+msgstr "xüsusiyyətləri"
+
+#: core/templates/includes/footer.html:94
+msgid "why we choose"
+msgstr "niyə seçirik"
+
+#: core/templates/includes/footer.html:98
+msgid "shipping & return"
+msgstr "göndərmə və qayıt"
+
+#: core/templates/includes/footer.html:99
+#, fuzzy
+#| msgid "free shipping"
+msgid "secure shopping"
+msgstr "pulsuz çatdırılma"
+
+#: core/templates/includes/footer.html:100
+msgid "gallary"
+msgstr "qalereya"
+
+#: core/templates/includes/footer.html:101
+msgid "affiliates"
+msgstr "filiallar"
+
+#: core/templates/includes/footer.html:102
+msgid "contacts"
+msgstr "əlaqə"
+
+#: core/templates/includes/footer.html:110
+msgid "store information"
+msgstr "məlumat saxlamaq"
+
+#: core/templates/includes/footer.html:114
+msgid "Multikart Demo Store, Demo store India 345-659"
+msgstr "Multikart Demo Mağazası, Demo mağazası Hindistan 345-659"
+
+#: core/templates/includes/footer.html:116
+msgid "Call Us: 123-456-7898"
+msgstr "Bizə zəng edin: 123-456-7898"
+
+#: core/templates/includes/footer.html:117
+msgid "Email Us: Support@Fiot.com"
+msgstr "Bizə e-poçt göndərin: Support@Fiot.com"
+
+#: core/templates/includes/footer.html:118
+msgid "Fax: 123456"
+msgstr "Faks: 123456"
+
+#: core/templates/includes/header.html:11
+msgid "Welcome to Our store Multikart"
+msgstr "Mağazamız Multikart'a xoş gəlmisiniz"
+
+#: core/templates/includes/header.html:21
+msgid "My Account"
+msgstr "Mənim Hesabım"
+
+#: core/templates/includes/header.html:25
+msgid "Logout"
+msgstr "Çıxış"
+
+#: core/templates/includes/header.html:27
+msgid "Login"
+msgstr "Daxil ol"
+
+#: core/templates/includes/header.html:82
+msgid "bags"
+msgstr "çantalar"
+
+#: core/templates/includes/header.html:99
+msgid "footwear"
+msgstr "ayaqqabı"
+
+#: core/templates/includes/header.html:106
+msgid "watches"
+msgstr "saatlar"
+
+#: core/templates/includes/header.html:108
+msgid "Accessories"
+msgstr "Aksesuarlar"
+
+#: core/templates/includes/header.html:143
+msgid "house of design"
+msgstr "ev dizaynı"
+
+#: core/templates/includes/header.html:145
+msgid "beauty & personal care"
+msgstr "gözəllik & şəxsi qayğı"
+
+#: core/templates/includes/header.html:182
+msgid "Home"
+msgstr "Ana səhifə"
+
+#: core/templates/includes/header.html:245
+#: core/templates/includes/header.html:263
+msgid "shop"
+msgstr "mağaza"
+
+#: core/templates/includes/header.html:307
+msgid "about us"
+msgstr "Haqqımızda"
+
+#: core/templates/includes/header.html:308
+msgid "contact"
+msgstr "əlaqə"
+
+#: core/templates/includes/header.html:310
+msgid "Profile"
+msgstr ""
+
+#: core/templates/index.html:20 core/templates/index.html:38
+msgid "welcome to fashion"
+msgstr "modaya xoş gəlmisiniz"
+
+#: core/templates/index.html:21
+msgid "men fashion"
+msgstr "kişi modası"
+
+#: core/templates/index.html:39
+msgid "women fashion"
+msgstr "qadın modası"
+
+#: core/templates/index.html:66
+#, python-format
+msgid "save 30%%"
+msgstr "saxla 30%%"
+
+#: core/templates/index.html:67
+msgid "men"
+msgstr "kişi"
+
+#: core/templates/index.html:82
+#, python-format
+msgid "save 60%%"
+msgstr "saxla 60%%"
+
+#: core/templates/index.html:83
+msgid "women"
+msgstr "qadın"
+
+#: core/templates/index.html:97 core/templates/index.html:203
+msgid "special offer"
+msgstr "xüsusi təklif"
+
+#: core/templates/index.html:98
+msgid "top collection"
+msgstr "üst kolleksiya"
+
+#: core/templates/index.html:202
+msgid "fashion trends"
+msgstr "moda meylləri"
+
+#: core/templates/index.html:215
+msgid "exclusive products"
+msgstr "eksklüziv məhsullar"
+
+#: core/templates/index.html:216
+msgid "special products"
+msgstr "xüsusi məhsullar"
+
+#: core/templates/index.html:237
+msgid "New Products"
+msgstr "Yeni məhsullar"
+
+#: core/templates/index.html:238
+msgid "Sale Products"
+msgstr "Endirimli məhsullar"
+
+#: core/templates/index.html:540 core/templates/index.html:655
+msgid "new"
+msgstr "yeni"
+
+#: core/templates/index.html:541 core/templates/index.html:656
+msgid "on sale"
+msgstr "Endirimdə"
+
+#: core/templates/index.html:765
+msgid "free shipping"
+msgstr "pulsuz çatdırılma"
+
+#: core/templates/index.html:766
+msgid "free shipping world wide"
+msgstr "dünya səviyyəsində pulsuz çatdırılma"
+
+#: core/templates/index.html:795
+msgid "24 X 7 service"
+msgstr "24 X 7 xidmət"
+
+#: core/templates/index.html:796
+msgid "online service for new customer"
+msgstr "yeni müştəri üçün onlayn xidmət"
+
+#: core/templates/index.html:822
+#, fuzzy
+#| msgid "special offer"
+msgid "festival offer"
+msgstr "xüsusi təklif"
+
+#: core/templates/index.html:838
+msgid "Recent Story"
+msgstr "Son hekayə"
+
+#: core/templates/index.html:839
+msgid "from the blog"
+msgstr "bloqdan"
+
+#: multi_kart/settings.py:195
+msgid "Azerbaijan"
+msgstr "Azərbaycan"
+
+#: multi_kart/settings.py:196
+msgid "English"
+msgstr "İngilis"
+
+#~ msgid "home & decor"
+#~ msgstr "ev & dekorasiya"
+
+#~ msgid "kitchen"
+#~ msgstr "mətbəx"
+
+#~ msgid "product"
+#~ msgstr "məhsul"
+
+#~ msgid "features"
+#~ msgstr "xüsusiyyətləri"
+
+#~ msgid "pages"
+#~ msgstr "səhifələr"
+
+#~ msgid "blog"
+#~ msgstr "bloq"
+
+#~ msgid "Featured Products"
+#~ msgstr "Seçilmiş məhsullar"
+
+#~ msgid "Best Sellers"
+#~ msgstr "Ən çox satanlar"

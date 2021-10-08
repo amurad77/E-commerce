@@ -1,0 +1,76 @@
+from product.models import *
+
+
+category = Category (title='en cox alinanlar')
+category.save()
+
+category = Category (title = 'en az alinanlar')
+category.save()
+
+category = Category (title = 'Brend mallar')
+category.save()
+
+
+c1 = Category.objects.get(id=9)
+c2 = Category.objects.get(id=10)
+c3 = Category.objects.get(id=11)
+
+
+discount = Discount (types = 1, amount = 15)
+discount.save()
+
+discount = Discount (types = 2, amount = 10)
+discount.save()
+
+discount = Discount (types = 3, amount = 13)
+discount.save()
+
+
+d1 = Discount.objects.get(id=1)
+d1 = Discount.objects.get(id=2)
+d1 = Discount.objects.get(id=3)
+
+
+product = Product (title = 'Polo t-shirt', price = '15.55', shortdetail = 'akjsdkdaks', longdetail = 'jfewkfewkfewf', video = 'like atin haa', category = c1, discount = d1)
+product.save()
+
+product = Product (title = 'dress', price = '20.30', shortdetail = 'akjsdkdaks', longdetail = 'jfewkfewkfewf', video = 'like atin haa', category = c3, discount = d1)
+product.save()
+
+product = Product (title = 'shoe', price = '32.39', shortdetail = 'akjsdkdaks', longdetail = 'jfewkfewkfewf', video = 'like atin haa', category = c3, discount = d1)
+product.save()
+
+product = Product (title = 'blouse', price = '12.35', shortdetail = 'akjsdkdaks', longdetail = 'jfewkfewkfewf', video = 'like atin haa' category = c1, discount = d1)
+product.save()
+
+product = Product (title = 't-shirt', price = '15.55', shortdetail = 'akjsdkdaks', longdetail = 'jfewkfewkfewf', video = 'like atin haa', category = c2, discount = d1)
+product.save()
+
+product = Product (title = 'shoe', price = '23.19', shortdetail = 'akjsdkdaks', longdetail = 'jfewkfewkfewf', video = 'like atin haa', category = c3, discount = d1)
+product.save()
+
+product = Product (title = 'koynek', price = '27.18', shortdetail = 'akjsdkdaks', longdetail = 'jfewkfewkfewf', video = 'like atin haa', category = c1, discount = d1)
+product.save()
+
+product = Product (title = 'ayaqqabi', price = '15.10', shortdetail = 'akjsdkdaks', longdetail = 'jfewkfewkfewf', video = 'like atin haa', category = c2, discount = d1)
+product.save()
+
+product = Product (title = 'salvar', price = '43.49', shortdetail = 'akjsdkdaks', longdetail = 'jfewkfewkfewf', video = 'like atin haa', category = c3, discount = d1)
+product.save()
+
+product = Product (title = 'kofta', price = '7.19', shortdetail = 'akjsdkdaks', longdetail = 'jfewkfewkfewf', video = 'like atin haa', category = c1, discount = d1)
+product.save()
+
+
+Product.objects.all()[:2]
+
+qs = Product.objects.filter(category = 9)
+qs
+
+Product.objects.all()[:3]
+
+catequal = qs.category
+catequal
+catequal.categories.all()
+
+Product.objects.filter(price=(15.55)) 
